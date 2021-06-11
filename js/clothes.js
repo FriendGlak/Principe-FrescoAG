@@ -19,7 +19,7 @@ const fetchData = async () => {
 }
 
 let Card = ''
-const dibujarCard = type => {
+const dibujarCard = () => {
     Card = ""
     dataApi.forEach(clothe => {
             Card += `
