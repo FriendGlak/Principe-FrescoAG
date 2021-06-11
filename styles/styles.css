@@ -37,10 +37,11 @@
 .content{
     width: 30%;
     float: left;
+    padding: 2vw;
 }
 #div1{
     background: url(../img/div1.jpeg);
-    padding: 10%;
+    padding: 12.3%;
     background-position: center;
     background-size: cover;
 }
@@ -48,13 +49,22 @@
     background: url(../img/div2.jpeg);
     background-position: center;
     background-size: cover;
-    padding: 10%;
+    padding: 12.3%;
 }
 .h2{
-    background: #ffffff;
     padding: 1vw;
-    color: #000000,
+    color: #ca2f2f,
 }
 #form{
     background: #ff00d4;
+}
+.margen{
+    justify-content: center;
+    margin-bottom: 5vw;
+}
+.bloques{
+    margin: 5vw 0 5vw 0;
+}
+.regalo{
+    width: 20vw;
 }
