@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "imagen": {
+            "vista1": "https://cdn.koaj.co/42874-big_default/buzo-pato-donald-amarillo.jpg",
+            "vista2": "https://cdn.koaj.co/42875-big_default/buzo-pato-donald-amarillo.jpg",
+            "vista3": "https://cdn.koaj.co/42876-thickbox_default/buzo-pato-donald-amarillo.jpg",
+            "vista4": "https://cdn.koaj.co/42877-big_default/buzo-pato-donald-amarillo.jpg"
+        },
+        "nombre": "Buzo Pato Donald Amarillo",
+        "descripcion": "Buzo para mujer, en tela de cuerpo unicolor, estampado frontal en contraste, cuello redondo, ajuste holgado y acabados en rib.",
+        "talla": {
+            "talla1": "S",
+            "talla2": "M",
+            "talla3": "L",
+            "talla4": "XL",
+            "talla5": "XXL"
+        },
+        "precio": "60.000",
+        "cantidad": "1"
+    }
+]
