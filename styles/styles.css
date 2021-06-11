@@ -28,3 +28,43 @@
 .mb-2 {
     margin-bottom: 0.5rem !important;
 }
+.div-color{
+    background-color: #d3d3d3;
+}
+.icono{
+    width: 3vw;
+}
+.content{
+    width: 30%;
+    float: left;
+    padding: 2vw;
+}
+#div1{
+    background: url(../img/div1.jpeg);
+    padding: 12.3%;
+    background-position: center;
+    background-size: cover;
+}
+#div2{
+    background: url(../img/div2.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding: 12.3%;
+}
+.h2{
+    padding: 1vw;
+    color: #ca2f2f,
+}
+#form{
+    background: #ff00d4;
+}
+.margen{
+    justify-content: center;
+    margin-bottom: 5vw;
+}
+.bloques{
+    margin: 5vw 0 5vw 0;
+}
+.regalo{
+    width: 20vw;
+}
