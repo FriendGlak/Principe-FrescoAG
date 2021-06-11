@@ -58,9 +58,75 @@
 </header>
 
 <body>
-
-    <div>
-        <!-- Acá va el carrousel -->
+    <h1>Página principal</h1>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <!--Holis-->
+            <div class="carousel-item active">
+                <img src="img/koaj.jpeg" class="d-block w-100" alt="ropa de hombre">
+            </div>
+            <div class="carousel-item">
+                <img src="img/rick&morty.jpeg" class="d-block w-100" alt="ropa de hombre">
+            </div>
+            <div class="carousel-item">
+                <img src="img/sistecredito.jpeg" class="d-block w-100" alt="ropa de hombre">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="row m-y-2">
+        <div class="col-2 div-color m-auto text-wrap">
+            <img src="img/car.png" class="float-left icono" alt="">
+            <p class="text-center fw-bold">Envios gratis por tu compra</p>
+        </div>
+        <div class="col-2 div-color m-auto text-wrap">
+            <img src="img/lock.png" class="float-left icono" alt="">
+            <p class="text-center fw-bold">Pagos online 100% seguros</p>
+        </div>
+        <div class="col-2 div-color m-auto text-wrap">
+            <img src="img/entrega.png" class="float-left icono" alt="">
+            <p class="text-center fw-bold">90 días para hacer lo cambios ¡¡¡Gratis!!!</p>
+        </div>
+        <div class="col-2 div-color m-auto text-wrap">
+            <img src="img/money.png" class="float-left icono" alt="">
+            <p class="text-center fw-bold">Pago contraentrega</p>
+        </div>
+    </div>
+    <div class="container">
+        <div id="div1" class="content">
+            <h2>Camisas</h2>
+        </div>
+        <div id="form" class="content">
+            <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
+            </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Email</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email">
+            </div>
+        </div>
+        <div id="div2" class="content">
+           <h2>Zapatos</h2>
+        </div>
+    </div>
 
     </div>
 
