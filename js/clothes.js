@@ -1,5 +1,5 @@
 const clothes = document.getElementById('clothes')
-console.log(clothes);
+
 let dataApi;
 
 console.log("Holas");
@@ -12,6 +12,7 @@ const fetchData = async () => {
         const res = await fetch('api/api.json')
         dataApi = await res.json()
         // console.log(data);
+        dibujarCard(dataApi)
     } catch (error) {
         console.log(error)
     }
@@ -26,7 +27,7 @@ const dibujarCard = type => {
                     <div class="card-sm-6">
                         <div class="view zoom overlay">
                             <img class="img-fluid w-100"
-                                src="${clothe.imagen}" alt="Sample">
+                                src="${clothe.imagen.vista1}" alt="Sample">
                             <h4 class="mb-0"><span class="badge badge-primary badge-pill badge-news">Sale</span></h4>
                         </div>
                         <div class="card-body text-center">
@@ -35,7 +36,6 @@ const dibujarCard = type => {
                             <hr>
                             <h6 class="mb-3">
                                 <span class="text-danger mr-1">${clothe.precio}</span>
-                                <span class="text-grey"><s>$36.99</s></span>
                             </h6>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ const dibujarCard = type => {
             `       
         }
     )
-    
+    console.log(clothes);
     clothes.innerHTML = Card
 
 
