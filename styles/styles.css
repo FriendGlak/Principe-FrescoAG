@@ -57,6 +57,7 @@
 }
 #form{
     background: #ff00d4;
+    padding: 2vw;
 }
 .margen{
     justify-content: center;
@@ -67,4 +68,14 @@
 }
 .regalo{
     width: 20vw;
+}
+.boton{
+    justify-content: center;
+}
+.boton_not{
+    text-decoration: none;
+    color: #ffffff;
+}
+.boton_not:hover{
+    color: #ffffff;
 }
